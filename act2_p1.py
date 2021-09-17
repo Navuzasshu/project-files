@@ -12,17 +12,17 @@ avg=(prelims+midterms+semis+finals)/4
 print("Your average is {}!".format(avg))
 if avg>=75:
     print("Congratulations! You passed!")
-    if avg>=99 and <=100:
+    if avg>=99 and avg<=100:
         print("Your grade is A!")
-    elif avg>=90 and <=98:
+    elif avg>=90 and avg<=98:
         print("Your grade is B!")
-    elif avg>=80 and <=89:
+    elif avg>=80 and avg<=89:
         print("Your grade is C!")
-    elif avg>=75 and <=79:
+    elif avg>=75 and avg<=79:
         print("Your grade is D.")    
 elif avg<75:
     print("Unfortunately, you have failed. Do better next time! ")
-    if avg>=71 and <=74:
+    if avg>=71 and avg<=74:
         print("Your grade is D.")
-    elif avg>=61 and <=70:
+    elif avg>=61 and avg<=70:
         print("Your grade is E.")
