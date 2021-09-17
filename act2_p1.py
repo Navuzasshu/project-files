@@ -10,3 +10,7 @@ finals=float(input("Enter your finals score: "))
 avg=(prelims+midterms+semis+finals)/4
 
 print("Your average is {}!".format(avg))
+if avg>=75:
+    print("Congratulations! You passed!")
+elif avg<75:
+    print("Unfortunately, you have failed. Do better next time! ")
